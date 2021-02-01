@@ -22,6 +22,10 @@ public class App {
 
         //Test class has two constructors, I am calling default constructor as I would like to use the default values
         Test t= new Test();
+        //Using mutator to set read time to 2 sec. Just for an example.
+        t.setreadtime(2);
+        //Using accesor to get read time and display.
+        System.out.println("You are given " + t.getreadtime() + " seconds to read each question.");
         t.startTest(randomNumbers, numberOfQuestion);
         
     }

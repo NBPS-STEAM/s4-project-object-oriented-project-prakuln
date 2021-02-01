@@ -11,12 +11,38 @@ public class Test{
   private double readtime;  // Time allocated for reading the questions
   private double timeReduction; // Time reduction after every correct asnwers
 
+  //Aded just accessor for correctanswers as we do not want anyone to change the correct answers from outside
+  public double getcorrectanswers(){
+    return this.correctanswers;
+  }
+
+  //accessor & mutator methods
+  public double getmaxsecperQ(){
+    return this.maxsecperQ;
+  }
+  public void setmaxsecperQ(double maxTimePerQ){
+    this.maxsecperQ = maxTimePerQ;
+  }
+
+  public double getreadtime(){
+    return this.readtime;
+  }
+  public void setreadtime(double QReadTime){
+    this.readtime = QReadTime;
+  }
+
+  public double gettimeReduction(){
+    return this.timeReduction;
+  }
+  public void settimeReduction(double timeReduct){
+    this.timeReduction = timeReduct;
+  }
 
   //Default constructor
   public Test(){
     correctanswers = 0; // Keeps track of number of correct answers
     maxsecperQ = 20; // Maximum seconds allocated for the first question
-    readtime = 2;  // Time allocated for reading the questions
+    readtime = 1;  // Time allocated for reading the questions
     timeReduction = 0.95; // Time reduction after every correct asnwers
   }
 
