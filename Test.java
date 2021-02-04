@@ -69,7 +69,7 @@ public class Test{
         //Give 3 seconds to prepare
         System.out.println("3...");
         TimeUnit.SECONDS.sleep(1);
-        //i learned about the Timeunit.sleep library and method at this URL: https://stackoverflow.com/questions/24104313/how-do-i-make-a-delay-in-java
+        
         System.out.println("2...");
         TimeUnit.SECONDS.sleep(1);
         System.out.println("1...");

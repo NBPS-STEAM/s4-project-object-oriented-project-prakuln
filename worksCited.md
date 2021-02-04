@@ -16,3 +16,7 @@ When making a citation, include the resource title, URL, and date of access. Use
 
 [Java If ... Else](https://www.w3schools.com/java/java_conditions.asp)
 Date accessed: Jan 20, 2021
+https://stackoverflow.com/questions/24104313/how-do-i-make-a-delay-in-java
+Date accessed:
+https://stackoverflow.com/questions/4040001/creating-random-numbers-with-no-duplicates
+Date accessed:

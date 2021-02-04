@@ -8,7 +8,7 @@ public class RandomArray{
   public static int[] GenerateRandomArray(int numberOfQA){
         //Allocate array space based on number of question
         int[] randomNumbers = new int[numberOfQA];
-        //learned about this method at this link: https://stackoverflow.com/questions/4040001/creating-random-numbers-with-no-duplicates
+        //learned about this method at this link: 
         ArrayList<Integer> list = new ArrayList<Integer>(numberOfQA);
         //After this the Array list will havr number from 0 to 6 
         for(int i = 0; i < numberOfQA; i++) {
